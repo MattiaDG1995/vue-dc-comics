@@ -63,6 +63,7 @@
         background-color: rgba(2, 130, 249, 1);
         color: white;
         /* z-index: 2; */
+        
     }
 
     .contblue{
