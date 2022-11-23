@@ -45,7 +45,5 @@ span{
     color: blue;
     
 }
-.sect{
-    background-color: red;
-}
+
 </style>
