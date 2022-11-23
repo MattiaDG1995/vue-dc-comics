@@ -60,8 +60,9 @@
     }
 
     .sectblue{
-        background-color: lightblue;
+        background-color: rgba(2, 130, 249, 1);
         color: white;
+        /* z-index: 2; */
     }
 
     .contblue{
@@ -75,6 +76,10 @@
             .box{               
                 display: flex;
                 align-items: center;
+
+                span{
+                    margin-left: 10px;
+                }
                     
                     img{
                         width: 50px;

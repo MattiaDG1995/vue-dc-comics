@@ -42,7 +42,7 @@ span{
 }
 
 .blue{
-    color: blue;
+    color: rgba(2, 130, 249, 1);
     
 }
 
