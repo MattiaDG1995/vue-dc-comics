@@ -96,7 +96,7 @@
 
     .logo{
         background-image: url('../assets/img/dc-logo-bg.png');
-        width: 50%;
+        width: 40%;
         background-repeat: no-repeat;
         background-position: 20px;
     }
