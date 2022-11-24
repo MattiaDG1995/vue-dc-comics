@@ -40,8 +40,13 @@ span{
     margin: 0 15px;
     cursor: pointer;
 
+    .blue{
+        border-bottom-color:  rgba(2, 130, 249, 1);
+    }
+
     &:hover{
         color: rgba(2, 130, 249, 1);
+        
     }
 }
 
