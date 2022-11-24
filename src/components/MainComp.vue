@@ -2,7 +2,14 @@
     <div>
         <div class="sect">
         <div class="container">
-            <span>Content goes here</span>
+            <CardComp />
+            <button>CURRENT SERIES</button>
+        </div>
+
+        <div class="contcards">
+            <div class="cards">
+
+            </div>
         </div>
 
         <div class="sectblue">
@@ -40,8 +47,14 @@
 </template>
 
 <script>
+
+    import CardComp from './CardComp.vue'
     export default {
-        name: 'MainComp'
+       
+        name: 'MainComp',
+        components: {
+            CardComp,
+        }
     }
 </script>
 
@@ -53,10 +66,18 @@
     }
 
     .container{
-        width: 80%;
-        margin: 0 auto;
+        background-image: url('../assets/img/jumbotron.jpg');
+        height: 500px;
         padding-top: 60px;
         padding-bottom: 60px;
+
+        button{
+            margin-top: 420px;
+            padding: 10px 15px;
+            color: white;
+            background-color: rgba(2, 130, 249, 1);
+            border: none;
+        }
     }
 
     .sectblue{
@@ -87,6 +108,15 @@
                     }
         }
         
+    }
+
+    .contcards{
+        background-color: rgba(28, 28, 28, 1);
+
+        .cards{
+            width: 80%;
+            margin: 0 auto;
+        }
     }
 
 
